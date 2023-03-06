@@ -69,9 +69,9 @@
     // Append the data to the table.
     let row = '<tr>';
     row += '<td><img src="' + data['picture.large'] + '"></td>';
-    row += '<td>' + data.nameFirst + ' ' + data.nameLast + '</td>';
-    row += '<td>' + data.city + '</td>';
-    row += '<td>' + data.state + '</td>';
+    row += '<td>' + data['name.first'] + ' ' + data['name.last'] + '</td>';
+    row += '<td>' + data['location.city'] + '</td>';
+    row += '<td>' + data['location.state'] + '</td>';
     row += '<td><a href="mailto:' + data.email + '">' + data.email + '</a></td>';
     row += '<td><a href="tel:' + data.phone + '">' + data.phone + '</a></td>';
     row += '</tr>';
